@@ -1,0 +1,21 @@
+<template>
+  <require from="./contact-row.html"></require>
+  <table>
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Phone number</th>
+      <th></th>
+    </tr>
+    <tbody>
+      <tr
+        as-element="compose"
+        view-model="./contact-item"
+        view="./contact-row.html"
+        repeat.for="contact of contactsNameDescending"
+        model.bind="contact"
+        delete-contact.delegate="deleteContact($event.detail)">
+      </tr>
+    </tbody>
+  </table>
+</template>

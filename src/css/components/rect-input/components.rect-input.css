@@ -1,0 +1,7 @@
+.c-rect-input {
+  margin-bottom: 2em;
+}
+
+.c-rect-input:last-of-type {
+  margin-bottom: 3em;
+}

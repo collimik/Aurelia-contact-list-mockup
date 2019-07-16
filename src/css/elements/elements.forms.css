@@ -1,0 +1,26 @@
+input:not([type]),
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=time],
+input[type=number],
+input[type=password],
+input[type=search],
+textarea {
+  -webkit-appearance: none;
+  border: 1px solid var(--color-lines);
+  font: var(--text-style-beta);
+  line-height: 2.4;
+  outline: none;
+  padding: 0 12px;
+  width: 100%;
+}
+
+[type="reset"],
+[type="button"],
+[type="submit"],
+button {
+	-webkit-appearance:none;
+}

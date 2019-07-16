@@ -1,0 +1,46 @@
+<template>
+  <form>
+    <h2>Create new contact</h2>
+    <div class="c-rect-input">
+      <label class="u-visually-hidden" for="first-name">
+        First name
+      </label>
+      <input
+        type="text"
+        id="first-name" 
+        name="first-name"
+        placeholder="First name"
+        required
+        value.bind="details.firstName" />
+    </div>
+    <div class="c-rect-input">
+      <label class="u-visually-hidden" for="last-name">
+        Last name
+      </label>
+      <input
+        type="text" 
+        id="last-name"
+        name="last-name"
+        placeholder="Last name"
+        required
+        value.bind="details.lastName" />
+    </div>
+    <div class="c-rect-input">
+      <label class="u-visually-hidden" for="phone-number">
+        Phone number
+      </label>
+      <input
+        type="tel"
+        id="phone-number"
+        name="phone-number"
+        placeholder="Phone number"
+        required
+        value.bind="details.phoneNumber"/>
+    </div>
+    <button
+      class="c-button"
+      click.delegate="saveContact()"
+      disabled.bind="!isValid"
+      type="submit">Add new</button>
+  </form>
+</template>

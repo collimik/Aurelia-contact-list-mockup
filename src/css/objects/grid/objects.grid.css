@@ -1,0 +1,271 @@
+.o-grid {
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 calc(var(--grid-gutter) * -0.5); /* 1 */
+}
+.o-grid__column {
+	display:flex;
+	flex-direction:column;
+	margin-bottom:var(--vspace);
+	padding:0 calc(var(--grid-gutter) * 0.5); /* 1 */
+}
+
+
+/* Breakpoint: sm (and constant width)
+----------------------------------------------------------------------------- */
+.o-grid__column[data-size="1"],
+.o-grid__column[data-size~="sm:1"] {
+	grid-column:span 1;
+	width:8.3333%; /* 1/12 */
+}
+.o-grid__column[data-size="2"],
+.o-grid__column[data-size~="sm:2"] {
+	grid-column:span 2;
+	width:16.6667%; /* 2/12 */
+}
+.o-grid__column[data-size="3"],
+.o-grid__column[data-size~="sm:3"] {
+	grid-column:span 3;
+	width:25%; /* 3/12 */
+}
+.o-grid__column[data-size="4"],
+.o-grid__column[data-size~="sm:4"] {
+	grid-column:span 4;
+	width:33.3333%; /* 4/12 */
+}
+.o-grid__column[data-size="5"],
+.o-grid__column[data-size~="sm:5"] {
+	grid-column:span 5;
+	width:41.6667%; /* 5/12 */
+}
+.o-grid__column[data-size="6"],
+.o-grid__column[data-size~="sm:6"] {
+	grid-column:span 6;
+	width:50%; /* 6/12 */
+}
+.o-grid__column[data-size="7"],
+.o-grid__column[data-size~="sm:7"] {
+	grid-column:span 7;
+	width:58.3333%; /* 7/12 */
+}
+.o-grid__column[data-size="8"],
+.o-grid__column[data-size~="sm:8"] {
+	grid-column:span 8;
+	width:66.6667%; /* 8/12 */
+}
+.o-grid__column[data-size="9"],
+.o-grid__column[data-size~="sm:9"] {
+	grid-column:span 9;
+	width:75%; /* 9/12 */
+}
+.o-grid__column[data-size="10"],
+.o-grid__column[data-size~="sm:10"] {
+	grid-column:span 10;
+	width:83.3333%; /* 10/12 */
+}
+.o-grid__column[data-size="11"],
+.o-grid__column[data-size~="sm:11"] {
+	grid-column:span 11;
+	width:91.6667%; /* 11/12 */
+}
+.o-grid__column[data-size="12"],
+.o-grid__column[data-size~="sm:12"] {
+	grid-column:span 12;
+	width:100%; /* 12/12 */
+}
+
+
+/* Breakpoint: md
+----------------------------------------------------------------------------- */
+@media screen and (min-width:600px) {
+	.o-grid__column[data-size~="md:1"] {
+		grid-column:span 1;
+		width:8.3333%; /* 1/12 */
+	}
+	.o-grid__column[data-size~="md:2"] {
+		grid-column:span 2;
+		width:16.6667%; /* 2/12 */
+	}
+	.o-grid__column[data-size~="md:3"] {
+		grid-column:span 3;
+		width:25%; /* 3/12 */
+	}
+	.o-grid__column[data-size~="md:4"] {
+		grid-column:span 4;
+		width:33.3333%; /* 4/12 */
+	}
+	.o-grid__column[data-size~="md:5"] {
+		grid-column:span 5;
+		width:41.6667%; /* 5/12 */
+	}
+	.o-grid__column[data-size~="md:6"] {
+		grid-column:span 6;
+		width:50%; /* 6/12 */
+	}
+	.o-grid__column[data-size~="md:7"] {
+		grid-column:span 7;
+		width:58.3333%; /* 7/12 */
+	}
+	.o-grid__column[data-size~="md:8"] {
+		grid-column:span 8;
+		width:66.6667%; /* 8/12 */
+	}
+	.o-grid__column[data-size~="md:9"] {
+		grid-column:span 9;
+		width:75%; /* 9/12 */
+	}
+	.o-grid__column[data-size~="md:10"] {
+		grid-column:span 10;
+		width:83.3333%; /* 10/12 */
+	}
+	.o-grid__column[data-size~="md:11"] {
+		grid-column:span 11;
+		width:91.6667%; /* 11/12 */
+	}
+	.o-grid__column[data-size~="md:12"] {
+		grid-column:span 12;
+		width:100%; /* 12/12 */
+	}
+}
+
+
+/* Breakpoint: lg
+----------------------------------------------------------------------------- */
+@media screen and (min-width:1000px) {
+	.o-grid__column[data-size~="lg:1"] {
+		grid-column:span 1;
+		width:8.3333%; /* 1/12 */
+	}
+	.o-grid__column[data-size~="lg:2"] {
+		grid-column:span 2;
+		width:16.6667%; /* 2/12 */
+	}
+	.o-grid__column[data-size~="lg:3"] {
+		grid-column:span 3;
+		width:25%; /* 3/12 */
+	}
+	.o-grid__column[data-size~="lg:4"] {
+		grid-column:span 4;
+		width:33.3333%; /* 4/12 */
+	}
+	.o-grid__column[data-size~="lg:5"] {
+		grid-column:span 5;
+		width:41.6667%; /* 5/12 */
+	}
+	.o-grid__column[data-size~="lg:6"] {
+		grid-column:span 6;
+		width:50%; /* 6/12 */
+	}
+	.o-grid__column[data-size~="lg:7"] {
+		grid-column:span 7;
+		width:58.3333%; /* 7/12 */
+	}
+	.o-grid__column[data-size~="lg:8"] {
+		grid-column:span 8;
+		width:66.6667%; /* 8/12 */
+	}
+	.o-grid__column[data-size~="lg:9"] {
+		grid-column:span 9;
+		width:75%; /* 9/12 */
+	}
+	.o-grid__column[data-size~="lg:10"] {
+		grid-column:span 10;
+		width:83.3333%; /* 10/12 */
+	}
+	.o-grid__column[data-size~="lg:11"] {
+		grid-column:span 11;
+		width:91.6667%; /* 11/12 */
+	}
+	.o-grid__column[data-size~="lg:12"] {
+		grid-column:span 12;
+		width:100%; /* 12/12 */
+	}
+}
+
+@supports (display:grid) {
+	.o-grid {
+		display:grid;
+		grid-gap:var(--grid-gutter);
+		grid-template-columns:repeat(12, 1fr);
+    margin:0 0 var(--vspace);
+    column-gap: 5%;
+    row-gap: 5%;
+	}
+	.o-grid__column[data-size] {
+		width:auto;
+		margin-bottom:0;
+    padding:0;
+	}
+}
+
+
+/* Collapsed
+ * No margin or padding
+----------------------------------------------------------------------------- */
+.o-grid--collapsed {
+	grid-gap:0;
+	margin:0;
+}
+.o-grid--collapsed > .o-grid__column {
+	margin-bottom:0;
+	padding:0;
+}
+
+
+/* No vertical margin
+----------------------------------------------------------------------------- */
+.o-grid--collapsed-v {
+	grid-row-gap:0;
+	margin-bottom:0;
+}
+.o-grid--collapsed-v > .o-grid__column {
+	margin-bottom:0;
+}
+
+
+/* Vertical alignment
+ * The default is `stretch`
+ * The `flex-start` and `flex-end` values are treated as `start` and `end` when
+ * `display:grid` is used.
+----------------------------------------------------------------------------- */
+.o-grid--align-top {
+	align-items:flex-start;
+}
+.o-grid__column--align-top {
+	align-self:flex-start;
+}
+.o-grid--align-middle {
+	align-items:center;
+}
+.o-grid__column--align-middle {
+	align-self:center;
+}
+.o-grid--align-bottom {
+	align-items:flex-end;
+}
+.o-grid__column--align-bottom {
+	align-self:flex-end;
+}
+
+
+/* Auto size
+----------------------------------------------------------------------------- */
+.o-grid__column[data-size="auto"] {
+	flex:none;
+}
+
+
+/* Print
+ * Disable the grid when printing
+----------------------------------------------------------------------------- */
+@media print {
+	.o-grid {
+		display:block;
+		margin:0;
+	}
+	.o-grid__column[data-size] {
+		display:block;
+		margin-bottom:var(--vspace);
+		padding:0;
+	}
+}

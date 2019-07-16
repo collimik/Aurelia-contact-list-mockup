@@ -1,0 +1,17 @@
+<template>
+  <require from="./contacts-data-provider"></require>
+  <require from="./add-contact-form"></require>
+  <require from="./contact-list"></require>
+  <contacts-data-provider>
+    <template replace-part="content">
+      <div class="o-grid">
+        <div class="o-grid__column" data-size="sm:12 md:12 lg:6">
+          <add-contact-form></add-contact-form>
+        </div>
+        <div class="o-grid__column" data-size="sm:12 md:12 lg:6">
+          <contact-list contacts.bind="currentState.contacts"></contact-list>
+        </div>
+      </div>
+    </template>
+  </contacts-data-provider>
+</template>

@@ -1,0 +1,29 @@
+.c-button {
+  background-color: var(--color-alpha);
+	color: #fff;
+	cursor:pointer;
+  font: var(--text-style-beta);
+  letter-spacing: 0.25em;
+  padding:12px 16px;
+  text-transform: uppercase;
+}
+
+.c-button[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.c-button--danger {
+  background-color: var(--color-beta);
+}
+
+.c-button--reset {
+  background-color: transparent;
+  padding:0;
+  border:0 none;
+  color: var(--color-text);
+}
+
+.c-button--icon {
+  padding: 0;
+}

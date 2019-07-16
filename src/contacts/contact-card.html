@@ -1,0 +1,19 @@
+<template>
+  <require from="./../icon/icon"></require>
+  <require from="./../icon/icons/remove.html"></require>
+  <div class="c-contact-card">
+    <span class="c-contact-card__delete">
+      <button class="c-button c-button--danger c-button--icon" type="button" click.delegate="deleteContact()">
+          <span class="c-icon" style="font-size:2em;" as-element="remove"></span>
+      </button>
+    </span>
+    <dl class="c-definition-list">
+      <dd>First Name</dd>
+      <dt>${details.firstName}</dt>
+      <dd>Last Name</dd>
+      <dt>${details.lastName}</dt>
+      <dd>Phone number</dd>
+      <dt><a href="tel:${details.phoneNumber}">${details.phoneNumber}</a></dt>
+    </dl>
+  </div>
+</template>

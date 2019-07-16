@@ -1,0 +1,5 @@
+h2 {
+  font: var(--text-style-alpha);
+  text-transform: uppercase;
+  margin: 2.65em 0 4em;
+}

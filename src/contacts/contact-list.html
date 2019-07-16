@@ -1,0 +1,30 @@
+<template>
+  <require from="./contacts-gallery.html"></require>
+  <require from="./contacts-table.html"></require>
+  <require from="./../icon/icon"></require>
+  <require from="./../icon/icons/gallery.html"></require>
+  <require from="./../icon/icons/menu.html"></require>
+  <require from="./contact-item"></require>
+  <div class="o-space-between">
+    <h2>Contact list</h2>
+    <div class="c-contact-list__view-selector">
+      <button
+        class="c-button c-button--reset"
+        type="button"
+        disabled.bind="viewMode === 'table'"
+        click.delegate="switchView({viewTemplate: './contacts-table.html', viewMode: 'table'})">
+        <span class="c-icon" style="font-size:2em;" as-element="menu"></span>
+      </button>
+      <button
+        class="c-button c-button--reset"
+        type="button"
+        disabled.bind="viewMode === 'gallery'"
+        click.delegate="switchView({viewTemplate: './contacts-gallery.html', viewMode: 'gallery'})">
+        <span class="c-icon" style="font-size:2em;" as-element="gallery"></span>
+      </button>
+    </div>
+  </div>
+  <compose
+    view="${view}">
+  </compose>
+</template>

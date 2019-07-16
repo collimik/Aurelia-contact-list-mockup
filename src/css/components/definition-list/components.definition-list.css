@@ -1,0 +1,13 @@
+.c-definition-list dd {
+  margin: 0;
+  font: var(--text-style-gamma);
+  text-transform: uppercase;
+}
+
+.c-definition-list dt {
+  margin-bottom: 2em;
+}
+
+.c-definition-list dt:last-of-type {
+  margin-bottom: 1em;
+}

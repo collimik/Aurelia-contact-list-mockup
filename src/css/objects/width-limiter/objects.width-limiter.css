@@ -1,0 +1,5 @@
+.o-width-limiter {
+  max-width: 1200px;
+  padding: 0 2%;
+  margin: 0 auto;
+}

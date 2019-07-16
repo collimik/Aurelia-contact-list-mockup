@@ -1,0 +1,14 @@
+<template>
+  <require from="./contact-card.html"></require>
+  <ul class="o-grid">
+    <li
+      as-element="compose"
+      class="o-grid__column"
+      data-size="sm:12 md:6"
+      view-model="./contact-item"
+      view="./contact-card.html"
+      repeat.for="contact of contactsNameDescending"
+      model.bind="contact">
+    </li>
+  </ul>
+</template>

@@ -1,0 +1,11 @@
+.c-contact-card {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  padding: 4em;
+  position: relative;
+}
+
+.c-contact-card__delete {
+  position: absolute;
+  right: 0.8em;
+  top: 0.8em;
+}

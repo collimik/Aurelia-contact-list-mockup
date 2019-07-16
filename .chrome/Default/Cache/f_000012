@@ -1,0 +1,181 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["app~d0ae3f07"],{
+
+/***/ 0:
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://localhost:8080 aurelia-webpack-plugin/runtime/empty-entry aurelia-webpack-plugin/runtime/pal-loader-entry webpack-dev-server/client aurelia-bootstrapper ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! /Users/mikael.colliander/contact-list/node_modules/webpack-dev-server/client/index.js?http://localhost:8080 */"GBRk");
+__webpack_require__(/*! aurelia-webpack-plugin/runtime/empty-entry */"GAND");
+__webpack_require__(/*! aurelia-webpack-plugin/runtime/pal-loader-entry */"GmYv");
+__webpack_require__(/*! webpack-dev-server/client */"K+kI");
+module.exports = __webpack_require__(/*! aurelia-bootstrapper */"b9nV");
+
+
+/***/ }),
+
+/***/ "5G8z":
+/*!**********************!*\
+  !*** ./src/state.ts ***!
+  \**********************/
+/*! exports provided: initialState */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initialState\", function() { return initialState; });\nvar initialState = {\n    contacts: [\n        {\n            id: 'contact-1',\n            firstName: 'Fred',\n            lastName: 'Waterford',\n            phoneNumber: '55 66 77'\n        },\n        {\n            id: 'contact-2',\n            firstName: 'Serena',\n            lastName: 'Joy',\n            phoneNumber: '55 66 77'\n        },\n        {\n            id: 'contact-3',\n            firstName: 'June',\n            lastName: 'Osborne',\n            phoneNumber: '55 66 77'\n        },\n        {\n            id: 'contact-4',\n            firstName: 'Serena',\n            lastName: 'Joy',\n            phoneNumber: '55 66 77'\n        }\n    ]\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNUc4ei5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9zdGF0ZS50cz9lNDZmIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBpbnRlcmZhY2UgQ29udGFjdCB7XG4gIGlkOiBzdHJpbmcsXG4gIGZpcnN0TmFtZTogc3RyaW5nLFxuICBsYXN0TmFtZTogc3RyaW5nLFxuICBwaG9uZU51bWJlcjogc3RyaW5nXG59XG5cbmV4cG9ydCBpbnRlcmZhY2UgU3RhdGUge1xuICBjb250YWN0czogQ29udGFjdFtdO1xufVxuXG5leHBvcnQgY29uc3QgaW5pdGlhbFN0YXRlOiBTdGF0ZSA9IHtcbiAgY29udGFjdHM6IFtcbiAgICB7XG4gICAgICBpZDogJ2NvbnRhY3QtMScsXG4gICAgICBmaXJzdE5hbWU6ICdGcmVkJyxcbiAgICAgIGxhc3ROYW1lOiAnV2F0ZXJmb3JkJywgXG4gICAgICBwaG9uZU51bWJlcjogJzU1IDY2IDc3J1xuICAgIH0sXG4gICAge1xuICAgICAgaWQ6ICdjb250YWN0LTInLFxuICAgICAgZmlyc3ROYW1lOiAnU2VyZW5hJyxcbiAgICAgIGxhc3ROYW1lOiAnSm95JywgXG4gICAgICBwaG9uZU51bWJlcjogJzU1IDY2IDc3J1xuICAgIH0sXG4gICAge1xuICAgICAgaWQ6ICdjb250YWN0LTMnLFxuICAgICAgZmlyc3ROYW1lOiAnSnVuZScsXG4gICAgICBsYXN0TmFtZTogJ09zYm9ybmUnLCBcbiAgICAgIHBob25lTnVtYmVyOiAnNTUgNjYgNzcnXG4gICAgfSxcbiAgICB7XG4gICAgICBpZDogJ2NvbnRhY3QtNCcsXG4gICAgICBmaXJzdE5hbWU6ICdTZXJlbmEnLFxuICAgICAgbGFzdE5hbWU6ICdKb3knLCBcbiAgICAgIHBob25lTnVtYmVyOiAnNTUgNjYgNzcnXG4gICAgfVxuICBdXG59XG4iXSwibWFwcGluZ3MiOiJBQVdBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///5G8z\n");
+
+/***/ }),
+
+/***/ "add-contact-form.html":
+/*!***********************************!*\
+  !*** ./src/add-contact-form.html ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <form>\\n    <label for=\\\"first-name\\\">\\n      First name\\n    </label>\\n    <input type=\\\"text\\\" id=\\\"first-name\\\" name=\\\"first-name\\\" placeholder=\\\"First name\\\" required/>\\n    <label for=\\\"last-name\\\">\\n      Last name\\n    </label>\\n    <input type=\\\"text\\\" id=\\\"last-name\\\" name=\\\"last-name\\\" placeholder=\\\"Last name\\\" required />\\n    <label for=\\\"phone-number\\\">\\n      Phone number\\n    </label>\\n    <input type=\\\"tel\\\" id=\\\"phone-number\\\" name=\\\"phone-number\\\" placeholder=\\\"Phone number\\\" required />\\n    <button type=\\\"submit\\\">Add new</button>\\n  </form>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWRkLWNvbnRhY3QtZm9ybS5odG1sLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2FkZC1jb250YWN0LWZvcm0uaHRtbD82MmM4Il0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8dGVtcGxhdGU+XFxuICA8Zm9ybT5cXG4gICAgPGxhYmVsIGZvcj1cXFwiZmlyc3QtbmFtZVxcXCI+XFxuICAgICAgRmlyc3QgbmFtZVxcbiAgICA8L2xhYmVsPlxcbiAgICA8aW5wdXQgdHlwZT1cXFwidGV4dFxcXCIgaWQ9XFxcImZpcnN0LW5hbWVcXFwiIG5hbWU9XFxcImZpcnN0LW5hbWVcXFwiIHBsYWNlaG9sZGVyPVxcXCJGaXJzdCBuYW1lXFxcIiByZXF1aXJlZC8+XFxuICAgIDxsYWJlbCBmb3I9XFxcImxhc3QtbmFtZVxcXCI+XFxuICAgICAgTGFzdCBuYW1lXFxuICAgIDwvbGFiZWw+XFxuICAgIDxpbnB1dCB0eXBlPVxcXCJ0ZXh0XFxcIiBpZD1cXFwibGFzdC1uYW1lXFxcIiBuYW1lPVxcXCJsYXN0LW5hbWVcXFwiIHBsYWNlaG9sZGVyPVxcXCJMYXN0IG5hbWVcXFwiIHJlcXVpcmVkIC8+XFxuICAgIDxsYWJlbCBmb3I9XFxcInBob25lLW51bWJlclxcXCI+XFxuICAgICAgUGhvbmUgbnVtYmVyXFxuICAgIDwvbGFiZWw+XFxuICAgIDxpbnB1dCB0eXBlPVxcXCJ0ZWxcXFwiIGlkPVxcXCJwaG9uZS1udW1iZXJcXFwiIG5hbWU9XFxcInBob25lLW51bWJlclxcXCIgcGxhY2Vob2xkZXI9XFxcIlBob25lIG51bWJlclxcXCIgcmVxdWlyZWQgLz5cXG4gICAgPGJ1dHRvbiB0eXBlPVxcXCJzdWJtaXRcXFwiPkFkZCBuZXc8L2J1dHRvbj5cXG4gIDwvZm9ybT5cXG48L3RlbXBsYXRlPlxcblwiOyJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///add-contact-form.html\n");
+
+/***/ }),
+
+/***/ "app":
+/*!********************!*\
+  !*** ./src/app.ts ***!
+  \********************/
+/*! exports provided: App */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\nvar App = (function () {\n    function App() {\n        this.message = 'Hello World!';\n    }\n    return App;\n}());\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2FwcC50cz8wNjZlIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBBcHAge1xuICBwdWJsaWMgbWVzc2FnZTogc3RyaW5nID0gJ0hlbGxvIFdvcmxkISc7XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUFBO0FBQUE7OyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///app\n");
+
+/***/ }),
+
+/***/ "app.html":
+/*!**********************!*\
+  !*** ./src/app.html ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = \"<template>\\n  <require from=\\\"./contact-manager\\\"></require>\\n  <contact-manager></contact-manager>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwLmh0bWw/ODI2NCJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcbiAgPHJlcXVpcmUgZnJvbT1cXFwiLi9jb250YWN0LW1hbmFnZXJcXFwiPjwvcmVxdWlyZT5cXG4gIDxjb250YWN0LW1hbmFnZXI+PC9jb250YWN0LW1hbmFnZXI+XFxuPC90ZW1wbGF0ZT5cXG5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///app.html\n");
+
+/***/ }),
+
+/***/ "contact-list":
+/*!*****************************!*\
+  !*** ./src/contact-list.ts ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar ContactList = (function () {\n    function ContactList() {\n        this.view = './contacts-gallery.html';\n    }\n    ContactList.prototype.switchView = function (viewMode) {\n        this.view = viewMode;\n    };\n    return ContactList;\n}());\n/* harmony default export */ __webpack_exports__[\"default\"] = (ContactList);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGFjdC1saXN0LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2NvbnRhY3QtbGlzdC50cz9mY2Y3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGF1dG9pbmplY3QsIGluamVjdCB9IGZyb20gJ2F1cmVsaWEtZGVwZW5kZW5jeS1pbmplY3Rpb24nO1xuaW1wb3J0IHsgYmluZGFibGUgfSBmcm9tICdhdXJlbGlhLWZyYW1ld29yayc7XG5pbXBvcnQgeyBDb250YWN0IH0gZnJvbSAnLi9zdGF0ZSc7XG5cbnR5cGUgdmlld01vZGUgPSAnLi9jb250YWN0cy1nYWxsZXJ5Lmh0bWwnIHwgJy4vY29udGFjdHMtdGFibGUuaHRtbCc7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIENvbnRhY3RMaXN0IHtcbiAgdmlldzogdmlld01vZGUgPSAnLi9jb250YWN0cy1nYWxsZXJ5Lmh0bWwnO1xuICBzd2l0Y2hWaWV3ICh2aWV3TW9kZSkge1xuICAgIHRoaXMudmlldyA9IHZpZXdNb2RlXG4gIH0gXG59XG4iXSwibWFwcGluZ3MiOiJBQU1BO0FBQUE7QUFBQTtBQUNBO0FBSUE7QUFIQTtBQUNBO0FBQ0E7QUFDQTtBQUFBOzsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///contact-list\n");
+
+/***/ }),
+
+/***/ "contact-list.html":
+/*!*******************************!*\
+  !*** ./src/contact-list.html ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n  <div>\\n    <button type=\\\"button\\\" click.delegate=\\\"switchView('./contacts-gallery.html')\\\">\\n      Gallery view\\n    </button>\\n    <button type=\\\"button\\\" click.delegate=\\\"switchView('./contacts-table.html')\\\">\\n      Table view\\n    </button>\\n  </div>\\n  <compose view=\\\"${view}\\\"></compose>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGFjdC1saXN0Lmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29udGFjdC1saXN0Lmh0bWw/MTk0MSJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcbiAgPGRpdj5cXG4gICAgPGJ1dHRvbiB0eXBlPVxcXCJidXR0b25cXFwiIGNsaWNrLmRlbGVnYXRlPVxcXCJzd2l0Y2hWaWV3KCcuL2NvbnRhY3RzLWdhbGxlcnkuaHRtbCcpXFxcIj5cXG4gICAgICBHYWxsZXJ5IHZpZXdcXG4gICAgPC9idXR0b24+XFxuICAgIDxidXR0b24gdHlwZT1cXFwiYnV0dG9uXFxcIiBjbGljay5kZWxlZ2F0ZT1cXFwic3dpdGNoVmlldygnLi9jb250YWN0cy10YWJsZS5odG1sJylcXFwiPlxcbiAgICAgIFRhYmxlIHZpZXdcXG4gICAgPC9idXR0b24+XFxuICA8L2Rpdj5cXG4gIDxjb21wb3NlIHZpZXc9XFxcIiR7dmlld31cXFwiPjwvY29tcG9zZT5cXG48L3RlbXBsYXRlPlxcblwiOyJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///contact-list.html\n");
+
+/***/ }),
+
+/***/ "contact-manager":
+/*!********************************!*\
+  !*** ./src/contact-manager.ts ***!
+  \********************************/
+/*! exports provided: ContactManager */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ContactManager\", function() { return ContactManager; });\nvar ContactManager = (function () {\n    function ContactManager() {\n    }\n    return ContactManager;\n}());\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGFjdC1tYW5hZ2VyLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2NvbnRhY3QtbWFuYWdlci50cz84Y2NkIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBDb250YWN0TWFuYWdlciB7fVxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTs7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///contact-manager\n");
+
+/***/ }),
+
+/***/ "contact-manager.html":
+/*!**********************************!*\
+  !*** ./src/contact-manager.html ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = \"<template>\\n  <require from=\\\"./contacts-data-provider\\\"></require>\\n  <!--require from=\\\"./contact-item\\\"></require>\\n  <require from=\\\"./add-contact-form.html\\\"></require>\\n  <require from=\\\"./contact-list\\\"-->\\n  <contacts-data-provider>\\n    <template replace-part=\\\"content\\\">\\n      <!--add-contact-form\\n        save-contact.delegate=\\\"saveContact($event.detail)\\\">\\n      </add-contact-form-->\\n      <contact-list>\\n          <template replace-part=\\\"contacts\\\">\\n            <contact-item\\n              repeat.for=\\\"contact of currentState.contacts\\\"\\n              details.bind=\\\"contact\\\"\\n              delete-contact.delegate=\\\"deleteContact($event.detail)\\\">\\n            </contact-item>\\n          </template>\\n      </contact-list>\\n      \\n    </template>\\n  </contacts-data-provider>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGFjdC1tYW5hZ2VyLmh0bWwuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29udGFjdC1tYW5hZ2VyLmh0bWw/MTdjNyJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPHRlbXBsYXRlPlxcbiAgPHJlcXVpcmUgZnJvbT1cXFwiLi9jb250YWN0cy1kYXRhLXByb3ZpZGVyXFxcIj48L3JlcXVpcmU+XFxuICA8IS0tcmVxdWlyZSBmcm9tPVxcXCIuL2NvbnRhY3QtaXRlbVxcXCI+PC9yZXF1aXJlPlxcbiAgPHJlcXVpcmUgZnJvbT1cXFwiLi9hZGQtY29udGFjdC1mb3JtLmh0bWxcXFwiPjwvcmVxdWlyZT5cXG4gIDxyZXF1aXJlIGZyb209XFxcIi4vY29udGFjdC1saXN0XFxcIi0tPlxcbiAgPGNvbnRhY3RzLWRhdGEtcHJvdmlkZXI+XFxuICAgIDx0ZW1wbGF0ZSByZXBsYWNlLXBhcnQ9XFxcImNvbnRlbnRcXFwiPlxcbiAgICAgIDwhLS1hZGQtY29udGFjdC1mb3JtXFxuICAgICAgICBzYXZlLWNvbnRhY3QuZGVsZWdhdGU9XFxcInNhdmVDb250YWN0KCRldmVudC5kZXRhaWwpXFxcIj5cXG4gICAgICA8L2FkZC1jb250YWN0LWZvcm0tLT5cXG4gICAgICA8Y29udGFjdC1saXN0PlxcbiAgICAgICAgICA8dGVtcGxhdGUgcmVwbGFjZS1wYXJ0PVxcXCJjb250YWN0c1xcXCI+XFxuICAgICAgICAgICAgPGNvbnRhY3QtaXRlbVxcbiAgICAgICAgICAgICAgcmVwZWF0LmZvcj1cXFwiY29udGFjdCBvZiBjdXJyZW50U3RhdGUuY29udGFjdHNcXFwiXFxuICAgICAgICAgICAgICBkZXRhaWxzLmJpbmQ9XFxcImNvbnRhY3RcXFwiXFxuICAgICAgICAgICAgICBkZWxldGUtY29udGFjdC5kZWxlZ2F0ZT1cXFwiZGVsZXRlQ29udGFjdCgkZXZlbnQuZGV0YWlsKVxcXCI+XFxuICAgICAgICAgICAgPC9jb250YWN0LWl0ZW0+XFxuICAgICAgICAgIDwvdGVtcGxhdGU+XFxuICAgICAgPC9jb250YWN0LWxpc3Q+XFxuICAgICAgXFxuICAgIDwvdGVtcGxhdGU+XFxuICA8L2NvbnRhY3RzLWRhdGEtcHJvdmlkZXI+XFxuPC90ZW1wbGF0ZT5cXG5cIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///contact-manager.html\n");
+
+/***/ }),
+
+/***/ "contacts-data-provider":
+/*!***************************************!*\
+  !*** ./src/contacts-data-provider.ts ***!
+  \***************************************/
+/*! exports provided: ContactsDataProvider */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ContactsDataProvider\", function() { return ContactsDataProvider; });\n/* harmony import */ var aurelia_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-store */ \"aurelia-store\");\n/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ \"ahDk\");\nvar __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\n\n\nvar ContactsDataProvider = (function () {\n    function ContactsDataProvider() {\n    }\n    ContactsDataProvider.prototype.deleteContact = function (event) {\n        console.log(event);\n    };\n    ;\n    ContactsDataProvider = __decorate([\n        Object(aurelia_store__WEBPACK_IMPORTED_MODULE_0__[\"connectTo\"])({\n            target: 'currentState',\n            selector: {\n                contacts: function (store) { return store.state.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__[\"pluck\"])('contacts')); },\n            }\n        })\n    ], ContactsDataProvider);\n    return ContactsDataProvider;\n}());\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGFjdHMtZGF0YS1wcm92aWRlci5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9jb250YWN0cy1kYXRhLXByb3ZpZGVyLnRzP2U2MDYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29ubmVjdFRvIH0gZnJvbSAnYXVyZWxpYS1zdG9yZSc7XG5pbXBvcnQgeyBwbHVjayB9IGZyb20gJ3J4anMvb3BlcmF0b3JzJztcbmltcG9ydCB7IFN0YXRlIH0gZnJvbSAnLi9zdGF0ZSc7XG5cbi8vIGNvbnN0IGRlbGV0ZUNvbnRhY3QgPSBhc3luYyBmdW5jdGlvbiAoc3RhdGUsIGNvbnRhY3RJZCwgZGVsZXRlQ29udGFjdCkge1xuLy8gICBjb25zdCBjb250YWN0cyA9IGF3YWl0IGRlbGV0ZUNvbnRhY3QoY29udGFjdElkKTtcbi8vICAgcmV0dXJuIE9iamVjdC5hc3NpZ24oe30sIHN0YXRlLCB7IGNvbnRhY3RzIH0pO1xuLy8gfVxuXG5AY29ubmVjdFRvPFN0YXRlPih7XG4gIHRhcmdldDogJ2N1cnJlbnRTdGF0ZScsXG4gIHNlbGVjdG9yOiB7XG4gICAgY29udGFjdHM6IHN0b3JlID0+IHN0b3JlLnN0YXRlLnBpcGUocGx1Y2soJ2NvbnRhY3RzJykpLFxuICB9XG59KVxuZXhwb3J0IGNsYXNzIENvbnRhY3RzRGF0YVByb3ZpZGVyIHtcbiAgY3VycmVudFN0YXRlO1xuICBkZWxldGVDb250YWN0IChldmVudCkge1xuICAgIGNvbnNvbGUubG9nKGV2ZW50KTtcbiAgfTtcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFjQTtBQUFBO0FBS0E7QUFIQTtBQUNBO0FBQ0E7QUFBQTtBQUpBO0FBTkE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFLQTtBQUFBO0FBTEE7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///contacts-data-provider\n");
+
+/***/ }),
+
+/***/ "contacts-data-provider.html":
+/*!*****************************************!*\
+  !*** ./src/contacts-data-provider.html ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<template>\\n    <template replaceable part=\\\"content\\\">\\n      ${currentState}\\n    </template>\\n</template>\\n\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGFjdHMtZGF0YS1wcm92aWRlci5odG1sLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL2NvbnRhY3RzLWRhdGEtcHJvdmlkZXIuaHRtbD9mZWZlIl0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8dGVtcGxhdGU+XFxuICAgIDx0ZW1wbGF0ZSByZXBsYWNlYWJsZSBwYXJ0PVxcXCJjb250ZW50XFxcIj5cXG4gICAgICAke2N1cnJlbnRTdGF0ZX1cXG4gICAgPC90ZW1wbGF0ZT5cXG48L3RlbXBsYXRlPlxcblwiOyJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///contacts-data-provider.html\n");
+
+/***/ }),
+
+/***/ "e2Tw":
+/*!****************************!*\
+  !*** ./src/environment.ts ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    debug: true,\n    testing: true\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZTJUdy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9lbnZpcm9ubWVudC50cz83YjY0Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgZGVidWc6IHRydWUsXG4gIHRlc3Rpbmc6IHRydWVcbn07XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///e2Tw\n");
+
+/***/ }),
+
+/***/ "i3Xp":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./log\": \"dZZH\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"i3Xp\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaTNYcC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8od2VicGFjaykvaG90IHN5bmMgbm9ucmVjdXJzaXZlIF5cXC5cXC9sb2ckPzFjM2QiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIG1hcCA9IHtcblx0XCIuL2xvZ1wiOiBcImRaWkhcIlxufTtcblxuXG5mdW5jdGlvbiB3ZWJwYWNrQ29udGV4dChyZXEpIHtcblx0dmFyIGlkID0gd2VicGFja0NvbnRleHRSZXNvbHZlKHJlcSk7XG5cdHJldHVybiBfX3dlYnBhY2tfcmVxdWlyZV9fKGlkKTtcbn1cbmZ1bmN0aW9uIHdlYnBhY2tDb250ZXh0UmVzb2x2ZShyZXEpIHtcblx0aWYoIV9fd2VicGFja19yZXF1aXJlX18ubyhtYXAsIHJlcSkpIHtcblx0XHR2YXIgZSA9IG5ldyBFcnJvcihcIkNhbm5vdCBmaW5kIG1vZHVsZSAnXCIgKyByZXEgKyBcIidcIik7XG5cdFx0ZS5jb2RlID0gJ01PRFVMRV9OT1RfRk9VTkQnO1xuXHRcdHRocm93IGU7XG5cdH1cblx0cmV0dXJuIG1hcFtyZXFdO1xufVxud2VicGFja0NvbnRleHQua2V5cyA9IGZ1bmN0aW9uIHdlYnBhY2tDb250ZXh0S2V5cygpIHtcblx0cmV0dXJuIE9iamVjdC5rZXlzKG1hcCk7XG59O1xud2VicGFja0NvbnRleHQucmVzb2x2ZSA9IHdlYnBhY2tDb250ZXh0UmVzb2x2ZTtcbm1vZHVsZS5leHBvcnRzID0gd2VicGFja0NvbnRleHQ7XG53ZWJwYWNrQ29udGV4dC5pZCA9IFwiaTNYcFwiOyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///i3Xp\n");
+
+/***/ }),
+
+/***/ "main":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! exports provided: configure */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"configure\", function() { return configure; });\n/* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./environment */ \"e2Tw\");\n/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-pal */ \"70NS\");\n/* harmony import */ var _state__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./state */ \"5G8z\");\n\n\n\nfunction configure(aurelia) {\n    aurelia.use\n        .standardConfiguration()\n        .feature('resources/index');\n    aurelia.use.developmentLogging(_environment__WEBPACK_IMPORTED_MODULE_0__[\"default\"].debug ? 'debug' : 'warn');\n    if (_environment__WEBPACK_IMPORTED_MODULE_0__[\"default\"].testing) {\n        aurelia.use.plugin('aurelia-testing');\n    }\n    aurelia.use.plugin('aurelia-store', { initialState: _state__WEBPACK_IMPORTED_MODULE_2__[\"initialState\"] });\n    aurelia.start().then(function () { return aurelia.setRoot('app'); });\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9tYWluLnRzP2NkNDkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtBdXJlbGlhfSBmcm9tICdhdXJlbGlhLWZyYW1ld29yaydcbmltcG9ydCBlbnZpcm9ubWVudCBmcm9tICcuL2Vudmlyb25tZW50JztcbmltcG9ydCB7UExBVEZPUk19IGZyb20gJ2F1cmVsaWEtcGFsJztcbmltcG9ydCB7IGluaXRpYWxTdGF0ZSB9IGZyb20gJy4vc3RhdGUnO1xuXG5leHBvcnQgZnVuY3Rpb24gY29uZmlndXJlKGF1cmVsaWE6IEF1cmVsaWEpIHtcbiAgYXVyZWxpYS51c2VcbiAgICAuc3RhbmRhcmRDb25maWd1cmF0aW9uKClcbiAgICAuZmVhdHVyZShQTEFURk9STS5tb2R1bGVOYW1lKCdyZXNvdXJjZXMvaW5kZXgnKSlcblxuICBhdXJlbGlhLnVzZS5kZXZlbG9wbWVudExvZ2dpbmcoZW52aXJvbm1lbnQuZGVidWcgPyAnZGVidWcnIDogJ3dhcm4nKTtcblxuICBpZiAoZW52aXJvbm1lbnQudGVzdGluZykge1xuICAgIGF1cmVsaWEudXNlLnBsdWdpbihQTEFURk9STS5tb2R1bGVOYW1lKCdhdXJlbGlhLXRlc3RpbmcnKSk7XG4gIH1cblxuICBhdXJlbGlhLnVzZS5wbHVnaW4oUExBVEZPUk0ubW9kdWxlTmFtZSgnYXVyZWxpYS1zdG9yZScpLCB7IGluaXRpYWxTdGF0ZSB9KTtcblxuICBhdXJlbGlhLnN0YXJ0KCkudGhlbigoKSA9PiBhdXJlbGlhLnNldFJvb3QoUExBVEZPUk0ubW9kdWxlTmFtZSgnYXBwJykpKTtcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBRUE7QUFFQTtBQUNBO0FBQ0E7QUFFQTtBQUVBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///main\n");
+
+/***/ }),
+
+/***/ "resources/index":
+/*!********************************!*\
+  !*** ./src/resources/index.ts ***!
+  \********************************/
+/*! exports provided: configure */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"configure\", function() { return configure; });\nfunction configure(config) {\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVzb3VyY2VzL2luZGV4LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vc3JjL3Jlc291cmNlcy9pbmRleC50cz83NDBmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7RnJhbWV3b3JrQ29uZmlndXJhdGlvbn0gZnJvbSAnYXVyZWxpYS1mcmFtZXdvcmsnO1xuXG5leHBvcnQgZnVuY3Rpb24gY29uZmlndXJlKGNvbmZpZzogRnJhbWV3b3JrQ29uZmlndXJhdGlvbikge1xuICAvL2NvbmZpZy5nbG9iYWxSZXNvdXJjZXMoW10pO1xufVxuIl0sIm1hcHBpbmdzIjoiQUFFQTtBQUFBO0FBQUE7QUFFQTsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///resources/index\n");
+
+/***/ })
+
+},[[0,"runtime~app","vendors~7e79ec10","vendors~556c66f2","vendors~72fdf3f2","vendors~50e8d500","vendors~5ea1390f","vendors~ecff2e3d","vendors~9e0f4621","vendors~b55f28a1","vendors~1f20a385","vendors~3f553db4","vendors~ff03c629","vendors~47d64b3b","vendors~0a62a912","vendors~debe92e6","vendors~c4d08385","vendors~5fff679e","vendors~95a414bc","vendors~1c3a2c3f","vendors~5196d596"]]]);

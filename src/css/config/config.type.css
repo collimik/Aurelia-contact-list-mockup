@@ -1,0 +1,10 @@
+:root {
+
+	--type-family-default: "Lato", Helvetica, sans-serif;
+	--type-size-default: 12px;
+	--type-line-height-default: 1.25;
+	--text-style-reset: 400 var(--type-size-default)/var(--type-line-height-default) var(--type-family-default);
+  --text-style-alpha: 700 1.5em/var(--type-line-height-default) var(--type-family-default);
+  --text-style-beta: 400 1.33em/var(--type-line-height-default) var(--type-family-default);
+
+}

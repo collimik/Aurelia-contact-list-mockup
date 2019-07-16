@@ -1,0 +1,20 @@
+<template>
+    <td class="u-display-none">
+      <require from="./../icon/icon"></require>
+      <require from="./../icon/icons/remove.html"></require>
+    </td>
+    <td>
+      ${details.firstName}
+    </td>
+    <td>
+      ${details.lastName}
+    </td>
+    <td>
+      <a href="tel:${details.phoneNumber}">${details.phoneNumber}</a>
+    </td>
+    <td>
+      <button class="c-button c-button--danger c-button--icon" type="button" click.delegate="deleteContact()">
+          <span class="c-icon" style="font-size:2em;" as-element="remove"></span>
+      </button>
+    </td>
+</template>
